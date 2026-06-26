@@ -1,10 +1,4 @@
 name: Android Rumble Build
-
-# NAO precisa de fork. Crie um repo NOVO e vazio (qualquer nome), coloque
-# este arquivo em  .github/workflows/android.yml , commit e rode em Actions.
-# O workflow clona o Dolphin no ref escolhido, aplica o fix de rumble e builda.
-# Para outra versao, troque o DOLPHIN_REF abaixo (ex.: release-prep-2606, 2603a...).
-
 on:
   workflow_dispatch:
   push:
